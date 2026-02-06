@@ -1,0 +1,207 @@
+section {
+  background-color: white;
+  margin: 30px auto;
+  padding: 25px;
+  width: 85%;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1,
+h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Links */
+a {
+  color: #2563eb;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1e40af;
+}
+
+/* Contact section */
+section ul li a {
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  background-color: #1f2933;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  section {
+    width: 95%;
+  }
+}
+/* Contact form styling */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #4ca1af;
+    box-shadow: 0 0 5px rgba(76, 161, 175, 0.5);
+}
+
+/* Submit button */
+button {
+    background-color: #4ca1af;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #357f89;
+    transform: translateY(-2px);
+}
+/* Contact icons */
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin: 12px 0;
+    font-size: 1.1rem;
+}
+
+.contact-list i {
+    color: #4ca1af;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+/* Hero section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    background: #fff1f6;
+    border-radius: 20px;
+    gap: 40px;
+}
+
+.hero-text {
+    max-width: 550px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+.hero-text h1 span {
+    color: #e91e63;
+}
+
+.hero-text h3 {
+    margin: 10px 0;
+    color: #555;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Buttons */
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn.primary {
+    background: #e91e63;
+    color: white;
+}
+
+.btn.secondary {
+    border: 2px solid #e91e63;
+    color: #e91e63;
+}
+
+/* Image card */
+.hero-image img {
+    width: 260px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    transform: rotate(-2deg);
