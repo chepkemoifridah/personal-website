@@ -198,12 +198,9 @@ button:hover {
 
 /* Image card */
 .hero-image img {
-    width: 260px;
-    height: 320px;
-    object-fit: cover;
-    border-radius: 20px;
-    border: 5px solid white;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
-
-    transform: rotate(-2deg);
+  width:200px;
+  height:auto;
+  border-radius:50%;
+  object-fit:cover;
 }
+
